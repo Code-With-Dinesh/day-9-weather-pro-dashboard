@@ -47,9 +47,6 @@ weather-pro/
 const apiKey = "dadbee070fba8c55cd3159bfbc142877";
 ```
 
-4. Run using Live Server
-
----
 
 ## 🌐 API Used
 
@@ -60,16 +57,8 @@ https://openweathermap.org/api
 
 ## 📸 Preview
 
-![Preview](preview.png)
+![Preview](screenshot.png)
 
 ---
-
-## 👨‍💻 Author
-
-Dinesh
-
----
-
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
+## 🌐 Live Demo
+ 
