@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(to right, #1e2a78, #3a5ba0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Glass UI */
+.container {
+  display: flex;
+  width: 900px;
+  border-radius: 20px;
+  overflow: hidden;
+  backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* LEFT */
+.left {
+  flex: 2;
+  padding: 30px;
+  color: white;
+}
+
+.left h1 {
+  font-size: 60px;
+}
+
+#icon {
+  width: 80px;
+}
+
+.search-box {
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background: orange;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* RIGHT */
+.right {
+  flex: 1;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+#forecast {
+  margin-top: 10px;
+}
+
+.forecast-item {
+  margin: 5px 0;
+}
